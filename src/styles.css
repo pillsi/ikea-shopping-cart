@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-list img {
+  height: 150px;
+}
+
+.App a img {
+  position: absolute;
+  left: 285px;
+  top: 85px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.App h5 {
+  margin-top: 70px;
+}
+
+/* .cart-total span {
+  position: absolute;
+  left: 305px;
+  top: 80px;
+  height: 20px;
+  width: 20px;
+  border-radius: 30%;
+  background-color: orangered;
+  opacity: 80%;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+} */
+
+.cart-total h1 {
+  cursor: pointer;
+}
+
+.cart-total h1:hover {
+  color: teal;
+}
+
+.item-list p {
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+/* .item-list span{
+  position: absolute;
+  top:450px;
+  
+  background-color: salmon;
+  width: 20px;
+  height: 20px;
+} */
+
+.item-list {
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  width: 680px;
+  line-height: 5px;
+  /* background-color: aqua; */
+}
+
+.item-list button {
+  padding: 5px 15px;
+  margin-right: 20px;
+  border-style: none;
+  border-radius: 5px;
+  color: #999;
+}
+
+.item-list button:hover {
+  background-color: rgb(150, 150, 150, 0.5);
+  color: white;
+}
+
+.App .total {
+  float: right;
+  margin: 0 auto;
+  width: 680px;
+  font-size: 20px;
+}
+
+.App span {
+  margin-right: 40px;
+}
